@@ -1,0 +1,6 @@
+
+	Kruskal-Wallis rank sum test
+
+data:  F by cluster
+Kruskal-Wallis chi-squared = 39.096, df = 5, p-value = 2.272e-07
+

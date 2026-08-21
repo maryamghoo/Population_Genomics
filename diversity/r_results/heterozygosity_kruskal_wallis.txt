@@ -1,0 +1,6 @@
+
+	Kruskal-Wallis rank sum test
+
+data:  Ho by cluster
+Kruskal-Wallis chi-squared = 94.928, df = 5, p-value < 2.2e-16
+

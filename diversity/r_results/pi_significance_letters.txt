@@ -1,0 +1,7 @@
+cluster	label
+Merritt Island	a
+SL	b
+CBC	c
+SBC	d
+Archbold	c
+Ocala	e

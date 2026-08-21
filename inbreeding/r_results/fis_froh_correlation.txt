@@ -1,0 +1,10 @@
+
+	Spearman's rank correlation rho
+
+data:  inbreeding_data$F and inbreeding_data$FROH
+S = 2962022, p-value < 2.2e-16
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.5396527 
+

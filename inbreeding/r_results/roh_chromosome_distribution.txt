@@ -1,0 +1,110 @@
+cluster	CHR_NUM	n_segments
+Merritt Island	1	45
+Merritt Island	1A	23
+Merritt Island	2	44
+Merritt Island	3	37
+Merritt Island	4	28
+Merritt Island	4A	10
+Merritt Island	5	36
+Merritt Island	6	2
+Merritt Island	7	12
+Merritt Island	8	7
+Merritt Island	9	9
+Merritt Island	10	9
+Merritt Island	11	2
+Merritt Island	12	1
+Merritt Island	13	3
+Merritt Island	15	6
+Merritt Island	18	2
+Merritt Island	19	3
+Merritt Island	21	4
+Merritt Island	23	6
+SL	1	7
+SL	1A	1
+SL	2	3
+SL	3	4
+SL	4	12
+SL	4A	2
+SL	6	4
+SL	7	1
+SL	8	3
+SL	11	3
+SL	13	2
+SL	14	1
+SL	15	2
+SL	18	3
+SL	20	1
+SL	21	1
+CBC	1	25
+CBC	1A	25
+CBC	2	34
+CBC	3	27
+CBC	4	30
+CBC	4A	2
+CBC	5	14
+CBC	6	5
+CBC	7	4
+CBC	8	13
+CBC	9	6
+CBC	10	3
+CBC	11	2
+CBC	13	3
+CBC	15	2
+CBC	19	2
+CBC	20	1
+CBC	23	3
+SBC	1	7
+SBC	1A	10
+SBC	2	11
+SBC	3	24
+SBC	4	11
+SBC	4A	8
+SBC	5	9
+SBC	6	11
+SBC	7	3
+SBC	8	7
+SBC	9	2
+SBC	10	1
+SBC	12	3
+SBC	13	2
+SBC	14	1
+SBC	15	2
+SBC	20	3
+SBC	21	1
+SBC	23	3
+Archbold	1	27
+Archbold	1A	37
+Archbold	2	40
+Archbold	3	26
+Archbold	4	18
+Archbold	4A	3
+Archbold	5	11
+Archbold	6	3
+Archbold	7	7
+Archbold	8	11
+Archbold	9	2
+Archbold	10	4
+Archbold	11	3
+Archbold	12	2
+Archbold	13	3
+Archbold	14	3
+Archbold	15	4
+Archbold	17	1
+Archbold	18	2
+Archbold	21	4
+Archbold	22	1
+Archbold	23	3
+Archbold	27	2
+Ocala	1	3
+Ocala	1A	6
+Ocala	2	1
+Ocala	3	8
+Ocala	4	4
+Ocala	5	2
+Ocala	8	2
+Ocala	10	2
+Ocala	15	1
+Ocala	18	1
+Ocala	20	1
+Ocala	21	1
+Ocala	23	2

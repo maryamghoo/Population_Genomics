@@ -1,0 +1,9 @@
+"GO.ID","Term","Annotated","Significant","Expected","weightFisher","FDR"
+"GO:0000902","cell morphogenesis",45,13,4.17,0.000125458565851563,0.105259736749462
+"GO:0001755","neural crest cell migration",20,6,1.85,0.00748380293693923,1
+"GO:0006366","transcription by RNA polymerase II",143,18,13.24,0.0122138468865197,1
+"GO:0007157","heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules",6,3,0.56,0.0126727661495314,1
+"GO:0046649","lymphocyte activation",3,2,0.28,0.0240427859287579,1
+"GO:0016192","vesicle-mediated transport",51,8,4.72,0.0315735580546537,1
+"GO:0006396","RNA processing",209,20,19.36,0.044139112519011,1
+"GO:1902532","negative regulation of intracellular signal transduction",4,2,0.37,0.045167621415272,1

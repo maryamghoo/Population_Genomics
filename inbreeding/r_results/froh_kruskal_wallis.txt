@@ -1,0 +1,6 @@
+
+	Kruskal-Wallis rank sum test
+
+data:  FROH by cluster
+Kruskal-Wallis chi-squared = 26.546, df = 5, p-value = 6.991e-05
+

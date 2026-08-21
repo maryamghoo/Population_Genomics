@@ -1,0 +1,6 @@
+
+	Kruskal-Wallis rank sum test
+
+data:  PI by cluster
+Kruskal-Wallis chi-squared = 2306.5, df = 5, p-value < 2.2e-16
+
