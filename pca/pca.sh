@@ -7,7 +7,8 @@
   --pca 20 \
   --out /path/to/output/all_regions
 
-awk '{print $1}' \
+# Convert eigenvalues to CSV: PC1,eigenvalue ... PC20,eigenvalue
+awk '{printf "PC%02d,%s\n", NR, $1}' \
   /path/to/output/all_regions.eigenval \
   > /path/to/output/all_regions.eigenvalues.csv
 
@@ -23,7 +24,7 @@ awk '{$1=$1}1' OFS=',' \
   --pca 20 \
   --out /path/to/output/<site>
 
-awk '{print $1}' \
+awk '{printf "PC%02d,%s\n", NR, $1}' \
   /path/to/output/<site>.eigenval \
   > /path/to/output/<site>.eigenvalues.csv
 
