@@ -128,11 +128,11 @@ ggsave(
 
 # FDR < 0.05
 fdr05_chr_outliers <- df_chr %>%
-  filter(QVAL < 0.05) %>%
+  filter(qval < 0.05) %>%
   select(ID, CHR, Chr_Label, POS, REF, ALT)
 
 fdr05_outliers <- df %>%
-  filter(QVAL < 0.05) %>%
+  filter(qval < 0.05) %>%
   select(ID, CHR, Chr_Label, POS, REF, ALT)
 
 # number of outliers
