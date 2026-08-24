@@ -28,7 +28,8 @@ JBGGOT010000041.1 JBGGOT010000042.1 \
 /path/to/plink \
 --bfile snps_beforeLD \
 --allow-extra-chr \
---recode vcf \
+--keep-allele-order \
+--recode vcf-iid \
 --out snps_beforeLD
 
 # Generate stats
