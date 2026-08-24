@@ -11,8 +11,8 @@ cd /path/to/output_directory
 # Filtering Variants
 /path/to/bcftools \
 filter \
---threads 32 \
--sFAIL -e'QUAL < 30 || INFO/MQ <= 30 || MEAN(FMT/DP) > 21 || MEAN(FMT/DP) < 2 || INFO/RPBZ < -5 || INFO/RPBZ > 5 || INFO/BQBZ < -5 || INFO/DP4[3]+INFO/DP4[4] <= 2' \
+--threads 16 \
+-sFAIL -e'QUAL < 30 || INFO/MQ <= 30 || MEAN(FMT/DP) > 21 || MEAN(FMT/DP) < 2 || INFO/RPBZ < -5 || INFO/RPBZ > 5 || INFO/BQBZ < -5 || INFO/DP4[2]+INFO/DP4[3] <= 2' \
 -g10 \
 -G10 \
 -o filteredvariants.vcf \
