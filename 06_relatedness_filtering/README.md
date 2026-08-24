@@ -11,8 +11,10 @@ Closely related individuals can bias many downstream population genomic analyses
 The workflow performs:
 
 - Calculate pairwise IBD statistics within each sampling site
+- Convert PLINK `.genome` files to CSV for easier inspection and manipulation
 - Identify closely related individuals using PI_HAT values
-- Remove one individual from each related pair
+- Calculate individual genotype missingness
+- Select individuals for removal based on genotype missingness, sequencing coverage, and minimizing sample loss
 - Remove selected individuals from the filtered VCF file
 - Generate SNP ID lists before and after LD pruning
 - Create VCF files containing only unrelated individuals for both SNP datasets
@@ -24,12 +26,17 @@ The workflow expects:
 - Sampling-site sample list(s).
 `<site_name>.samples.irem`
 - PLINK SNP datasets generated from previous SNP filtering steps.
-`snps_beforeLD.bim`
+`snps_beforeLD.bed`  
+`snps_beforeLD.bim`  
+`snps_beforeLD.fam`
+- LD-pruned SNP list: 
 `snps_afterLD.prune.in`
 
 ## Output
 The workflow generates:
 `relatedness_<site_name>.genome`
+`relatedness_<site_name>.csv`  
+`individual_missingness.imiss` 
 `ibd_rmv_samples.txt`
 `unrelated_individuals.vcf`
 `snps_beforeLD.txt`

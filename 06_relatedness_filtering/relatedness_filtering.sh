@@ -38,10 +38,40 @@
 # relatedness_<site_name>.genome
 
 # the .genome file contains pairwise relatedness statistics,
-# including the PI_HAT value for each pair of individuals
+# including the PI_HAT value for each pair of individuals.
+
+
+# Convert the whitespace-delimited .genome file to CSV
+# for easier inspection and manipulation.
+
+awk 'BEGIN{OFS=","} {$1=$1; print}' \
+  /path/to/output/relatedness_<site_name>.genome \
+  > /path/to/output/relatedness_<site_name>.csv
+  
+  
+##### identify related individuals #####
 
 # individuals with PI_HAT >= 0.5 were considered closely related.
-# for each related pair, one individual was randomly removed.
+
+# Calculate genotype missingness for each individual to help determine
+# which sample to remove from each related pair.
+
+/path/to/plink \
+  --bfile /path/to/snps_beforeLD \
+  --allow-extra-chr \
+  --missing \
+  --out /path/to/output/individual_missingness
+  
+# Main individual-level missingness output:
+# individual_missingness.imiss
+
+# For each related pair, one individual was selected for removal based on:
+# - genotype missingness
+# - sequencing coverage
+# - retaining as many individuals as possible across overlapping related pairs
+
+# Samples with better genotype completeness and sequencing coverage were
+# preferentially retained.
 
 # manually create a text file listing the IDs of individuals selected for removal:
 # ibd_rmv_samples.txt
